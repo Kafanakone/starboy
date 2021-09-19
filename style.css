@@ -1,5 +1,8 @@
 body{
     background: linear-gradient(160deg, rgba(29,15,13,1) 0%, rgba(190,61,24,1) 25%, rgba(146,48,21,1) 81%, rgba(29,15,13,1) 99%);
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    /* height: auto; */
     margin: 0;
     padding: 0;
     font-family: "roboto";
@@ -91,7 +94,8 @@ nav ul li a{
 }
 .right-nav {
     bottom: 15em;
-    left: 75em;
+    float: right;
+    margin-right: 2em;
     cursor: pointer;
 }
 .textbottom{
